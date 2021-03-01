@@ -2,7 +2,7 @@
     if(location.hash){
         alert(true);
         hash = location.hash.substring(1);
-        location.replace("https://en.wikipedia.org/wiki/URL_redirection");
+        location.replace("https://example.com" + "#" + hash);
     }
     else{
         alert(false);
