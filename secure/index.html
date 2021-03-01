@@ -1,7 +1,11 @@
 <script>
-	if(location.hash){
-		alert("true");
-	}
-   hash = window.location.hash.substring(1);
-	alert(hash)
+    if(location.hash){
+        alert(true);
+        hash = location.hash.substring(1);
+        location.replace("https://en.wikipedia.org/wiki/URL_redirection");
+    }
+    else{
+        alert(false);
+        location.replace("https://yandex.com");
+    }
 </script>
